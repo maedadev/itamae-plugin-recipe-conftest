@@ -1,4 +1,4 @@
-version = ENV['CONFTEST_VERSION'] || Itamae::Plugin::Recipe::Conftest::CONFTEST_VERSION
+version = Itamae::Plugin::Recipe::Conftest::CONFTEST_VERSION
 
 execute "download conftest v#{version}" do
   cwd '/tmp'
